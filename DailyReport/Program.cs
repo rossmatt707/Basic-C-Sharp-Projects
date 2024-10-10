@@ -48,11 +48,11 @@ namespace DailyReport
             }
           
            
-            Console.WriteLine("Were there any positive experiences you’d like to share? Please give specifics."); // Writes initial greetings and title
+            Console.WriteLine("Were there any positive experiences you\'d like to share? Please give specifics."); // Writes initial greetings and title
             string userDetails = Console.ReadLine(); // gets user input and stores as variable
             Console.WriteLine(userDetails + "... thanks for the details!"); // uses variable to send personalized message back to user.
 
-            Console.WriteLine("Is there any other feedback you’d like to provide? Please be specific."); // Writes initial greetings and title
+            Console.WriteLine("Is there any other feedback you\'d like to provide? Please be specific."); // Writes initial greetings and title
             string userFeedback = Console.ReadLine(); // gets user input and stores as variable
             Console.WriteLine(userFeedback + "... thanks for the feedback!"); // uses variable to send personalized message back to user.
 
